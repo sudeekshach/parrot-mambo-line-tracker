@@ -1,0 +1,78 @@
+Memory from 0x8000 to 0x1f7000 locked
+Memory from 0x1ff000 to 0x204000 locked
+/tmp/.dragon-prog.lock locked.
+Setting PWM frequency: reg value 0x0
+INIT libVision with [160 x 120]
+rsedu_control(): Control processing thread id = 1081984096 
+rsedu_control(): Control thread policy = 2 pri=32
+rsedu_control(): Battery output voltage Integrated:  3.55 V - 69 percents
+rsedu_control(): used: 0, users: 0, gyrotemp 53.047646, acctemp 0.000000, presstmp 45.290001 
+rsedu_of(): SUCCESS optical flow FIFO exists! 
+rsedu_control(): Waiting for optical flow connection...
+rsedu_control(): WARNING optical flow might not be running, 62!
+
+create_referencevalserver_thread(): stack size before reference value thread creation 8388608 err=0
+create_referencevalserver_thread(): reference value server thread id = 1081984096 
+create_referencevalserver_thread(): reference value server  policy = 2 pri=32
+create_image_thread(): Image thread policy = 2 and priority=10
+create_image_thread(): Image thread inherit scheduler option error=0
+create_image_thread(): value of detach status=0
+create_image_thread(): stacksize before thread creation err=0
+create_image_thread(): value of scheduler policy status=0
+create_image_thread(): value of scheduler param status=0
+create_referencevalserver_thread(): Reference Server Thread created successfully
+create_referencevalserver_thread(): stacksize after reference thread creation 16384 
+rsedu_control(): Waiting for connection request from host! 
+
+
+ **** Sensor Values **** 
+rsedu_control(): sonar altitude: 0.000000meters, pressure: 97105.687500pascal, gyrotemp: 53.029999celsius
+rsedu_control(): gyro x: -0.040432rad/s, y: -0.017944rad/s, z: 0.027632rad/s
+rsedu_control(): accel x: 0.236400m/s2, y: -0.062073m/s2, z: -9.782607m/s2
+rsedu_control(): Battery output voltage Integrated:  3.56V - 69 percents
+create_background_thread(): ext thread inherit scheduler option error=0
+create_background_thread(): value of detach status=0
+create_background_thread(): stacksize before thread creation err=0
+create_background_thread(): value of scheduler policy status=0
+create_background_thread(): value of scheduler param status=0
+create_background_thread(): External mode Thread created successfully
+create_background_thread(): stacksize after ext thread creation 16384 
+create_image_thread(): Image Thread created successfully
+keyboardserver_thread(): Entered the Keyboard Server thread... 
+keyboardserver_thread(): Successfully created socket... 
+keyboardserver_thread(): Bind socket... 
+keyboardserver_thread(): Bind completed .. listening to the socket !
+extmode_thread(): External mode thread policy = 0 and priority=0
+
+** starting the model **
+keyboardserver_thread(): Received connection from the host! 
+keyboardserver_thread(): Successfully created GUI socket... 
+keyboardserver_thread(): Bind GUI socket...
+keyboardserver_thread(): Bind completed .. listening to the GUI socket !
+rsedu_control(): Waiting for takeoff command from host! 
+ TakeOff Sequence Initiated !! 
+The flight duration is set to Simulation Stop Time of = 100 seconds and powergain is set to = 80
+rsedu_control(): Simulink model init started! 
+rsedu_control(): Simulink model init completed! 
+rsedu_control(): Initializing Calibration Data! 
+rsedu_control(): Drone Motors Activated! 
+keyboardserver_thread(): Received connection to GUI from the host! 
+rsedu_control(): Calibrating Data . . . 
+rsedu_control(): Batterylevel: 68.987374
+rsedu_control(): Sensorcal: 0.218099 :: -0.026981 :: -9.756747 :: -0.040359 :: -0.017443 :: 0.026741 :: 97104.117188 :: 1.644325 
+ *************************************** Data_block_start *************************************************** 
+rsedu_control(): Motors Powered. Ready for Take-Off ! 
+rsedu_control(): Flight aborted due to low voltage (48 %): shutting down motors now, charge battery!
+rsedu_vision(): Entered... 
+rsedu_control(): Flight Completed after 404 cycles ... DONE 
+RSEDU_image_processing: Average image processing time is 0ms 
+rsedu_control(): Good night! 
+ 
+Shut down and clean up
+----------------------
+Setting PWM frequency: reg value 0x0
+Setting PWM 0 0 0 0
+Flushing filesystems...
+    flush done.
+Dragon returned = 
+############################
